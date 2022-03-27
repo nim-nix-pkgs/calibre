@@ -11,6 +11,7 @@
   inputs.src-calibre-master.ref   = "refs/heads/master";
   inputs.src-calibre-master.owner = "juancarlospaco";
   inputs.src-calibre-master.repo  = "nim-calibre";
+  inputs.src-calibre-master.dir   = "";
   inputs.src-calibre-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
