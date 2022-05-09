@@ -7,37 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/juancarlospaco/nim-calibre",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/juancarlospaco/nim-calibre/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream",
     ""
   ],
-  "heads": [
-    {
-      "name": "calibre",
-      "version": "0.2.2",
-      "author": "Juan Carlos",
-      "desc": "Calibre Database Lib for Nim",
-      "license": "MIT",
-      "skipDirs": [],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 0.20.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "0.20.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "src",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
